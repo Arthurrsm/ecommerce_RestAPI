@@ -6,6 +6,8 @@ Este projeto é uma aplicação RESTful de um sistema de e-commerce desenvolvido
 
 ## Estrutura do Projeto
 
+![Diagrama](https://github.com/Arthurrsm/ecommerce_RestAPI/assets/125709335/57a9b85d-d75f-498e-ae9d-5ce698d094df)
+
 O projeto está organizado nas seguintes camadas:
 
 - `application`: Contém a classe principal que inicia a aplicação Spring Boot.
@@ -36,3 +38,5 @@ public class EcommerceRestApiApplication {
 	}
 
 }
+
+## Diagrama de microsserviços
