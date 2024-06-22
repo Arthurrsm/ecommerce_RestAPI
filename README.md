@@ -33,11 +33,11 @@ public class EcommerceRestApiApplication {
     }
 }
 </code></pre>
-
+```
 Esta classe é responsável por iniciar a aplicação Spring Boot. Ela usa a anotação @SpringBootApplication para configurar a aplicação e o método main para iniciar a execução.
 
 ### `SecurityConfig.java`
-
+```
 <pre><code class="language-java">
 @Configuration
 @EnableWebSecurity
@@ -98,12 +98,12 @@ public class SecurityConfig {
     }
 }
 </code></pre>
-
+```
 
 SecurityConfig configura a segurança da aplicação usando Spring Security. Define permissões de acesso aos endpoints baseado em roles de usuário, configura autenticação básica HTTP e define usuários em memória com suas respectivas roles.
 
 ### `UserController.java`
-
+```
 <pre><code class="language-java">
 @RestController
 public class UserController {
@@ -138,11 +138,11 @@ public class UserController {
     }
 }
 </code></pre>
-
+```
 UserController define endpoints REST para operações relacionadas a usuários. Inclui métodos para login, extração de nome de usuário a partir de um token JWT e consultas específicas para gerente e administração baseadas em autorização.
 
 ### `UserEntity.java`
-
+```
 <pre><code class="language-java">
 public class UserEntity {
 
@@ -161,19 +161,19 @@ public class UserEntity {
     // Getters e Setters
 }
 </code></pre>
-
+```
 UserEntity representa a entidade de usuário com campos como id, nome, email e senha. Inclui um construtor para inicializar os campos e métodos para acesso aos dados (getters e setters).
 
 ### `JwtUtil.java`
-
+```
 <pre><code class="language-java">
 public class JwtUtil {
     // Métodos para geração e validação de tokens JWT
 }
 </code></pre>
-
+```
 ### `UserService.java`
-
+```
 <pre><code class="language-java">
 @Service
 public class UserService {
@@ -187,7 +187,7 @@ public class UserService {
     }
 }
 </code></pre>
-
+```
 UserService contém métodos de serviço para gerenciamento de tokens JWT. Utiliza o JwtUtil para gerar tokens com base no nome do usuário e extrair o nome de usuário de um token fornecido.
 JwtUtil fornece métodos para geração e validação de tokens JWT. Utiliza a biblioteca io.jsonwebtoken para manipulação segura de tokens JWT, incluindo a geração com uma chave secreta e a extração do nome de usuário a partir do token.
 
