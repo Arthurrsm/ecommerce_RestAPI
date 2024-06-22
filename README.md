@@ -18,6 +18,11 @@ O projeto está organizado nas seguintes camadas:
 - `security`: Utilitários de segurança para geração e validação de tokens JWT.
 - `service`: Serviços que contêm a lógica de negócios da aplicação.
 
+## Requisições do Insomnia
+
+![Postme 2](https://github.com/Arthurrsm/ecommerce_RestAPI/assets/125709335/cbeb8ef1-66ea-4170-87d1-9bdba223f199)
+![Postme 1](https://github.com/Arthurrsm/ecommerce_RestAPI/assets/125709335/42133d0e-ed73-4fc8-9e6c-501dbe04f164)
+
 ## Arquivos e Funções
 
 ### `EcommerceRestApiApplication.java`
